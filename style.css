@@ -2,19 +2,21 @@
     margin: 0;
     padding: 0;
     font-family: sans-serif;
+    color: aliceblue;
 }
 body{
-    background-color: rgb(46, 19, 169);
-    display: flex;
+    background: #14142F;    display: flex;
     justify-content: center;
     text-align: center;
+    color: #fff;
 }
 .container{
-    margin-top: 200px;
-    color: rgb(46, 19, 169);
-    background-color: bisque;
-    width: 90%;
-    height: 80%;
+    margin-top: 100px;
+    color: #fff;
+    background: #1D1E40;
+    width: 80%;
+    height: 90%;
+    padding: 50px;
 }
 
 button{
@@ -23,4 +25,55 @@ button{
     color: #fff;
     background-color: rgb(46, 19, 169);
     font-weight: 600;
+}
+
+h1{
+    font-size: 60px;
+    /* padding: 50px; */
+}
+
+.bottom-line{
+    display: inline-block;
+    justify-items: center;
+    /* background-color: aqua; */
+    border-bottom: solid 2px white;
+    width: 70%;
+    height: 100px;
+}
+
+.currency{
+    padding: 50px;
+}
+
+select{
+    cursor: pointer;
+    background: #4638C8;
+    border: transparent;
+    width: 180px;
+    height: 60px;
+    float: left;
+    margin-left: 134px;
+    font-size: 25px;
+    padding: 5px;
+}
+
+input{
+    /* cursor: pointer; */
+    background: transparent;
+    border: transparent;
+    border-bottom: solid 2px #fff;
+    width: 180px;
+    height: 60px;
+    float: right;
+    margin-right: 134px;
+
+}
+
+.btn{
+    cursor: pointer;
+}
+
+
+@media (max-width = 1024){
+    
 }
